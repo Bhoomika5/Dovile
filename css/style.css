@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+html {
+    font-size: 15px;
+}
+
+.custom-nav {
+    text-align: center;
+    padding-block: 30px;
+}
+
+.custom-box {}
+
+.custom-box h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #4F4F4F;
+    font-weight: 500;
+}
+
+.custom-box ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.custom-box li a {
+    font-family: "Bodoni Moda", serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.banner-wrap {
+    width: 100%;
+    background-color: #fff5ff;
+    margin-bottom: 20px;
+}
+
+.banner-box {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner-left {
+    width: 50%;
+}
+
+.banner-left h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    color: #4F4F4F;
+}
+
+.banner-left p {
+    color: rgb(69, 69, 69);
+    font-size: 1.3rem;
+    margin-block: 20px;
+}
+
+.banner-left button {
+    width: 140px;
+    background-color: rgb(69, 69, 69);
+    padding-block: 15px;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.banner-right {
+    width: 48%;
+}
+
+.banner-right img {
+    width: 100%;
+}
+
+.featured-wrap {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-block: 50px;
+}
+
+.about-wrap {
+    background-color: #fff5ff;
+}
+
+.about-box {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-block: 50px;
+}
+
+.about-box h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+}
+
+.about-box p {
+    color: rgb(69, 69, 69);
+    font-size: 1.1rem;
+}
+
+.service {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 50px;
+    flex-wrap: wrap;
+}
+
+.service-left {
+    width: 45%;
+}
+
+.service-left img {
+    width: 100%;
+}
+
+.service-right {
+    width: 45%;
+}
+
+.service-right h1 {
+    font-size: 3rem;
+    color: #2d2d2d;
+    font-weight: 400;
+}
+
+.service-right p {
+    color: rgb(69, 69, 69);
+    font-size: 1.1rem;
+    margin-block: 20px;
+    line-height: 1.5rem;
+}
+
+.service-right button {
+    width: 140px;
+    background-color: rgb(69, 69, 69);
+    padding-block: 15px;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.blog {
+    background-color: #fff5ff;
+    padding-block: 50px;
+}
+
+.blog-box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blog-heading {
+    text-align: center;
+}
+
+.blog-heading h1 {
+    color: #2d2d2d;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog-content-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.blog-content {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.blog-content h2 {
+    color: #2d2d2d;
+}
+
+.blog-content p {
+    color: #2d2d2d;
+    font-size: 1rem;
+    margin-top: 10px;
+    line-height: 1.3rem;
+    text-align: justify;
+
+}
+
+.blog-about {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 50px;
+    flex-wrap: wrap;
+
+}
+
+.blog-about-left {
+    width: 45%;
+}
+
+.blog-about-left h1 {
+    font-size: 3rem;
+    color: #2d2d2d;
+    font-weight: 400;
+}
+
+.blog-about-left p {
+    color: rgb(69, 69, 69);
+    font-size: 1.1rem;
+    margin-block: 20px;
+    line-height: 1.5rem;
+}
+
+.blog-about-left button {
+    width: 140px;
+    background-color: rgb(69, 69, 69);
+    padding-block: 15px;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.blog-about-right {
+    width: 45%;
+}
+
+.blog-about-right img {
+    width: 100%;
+}
+
+.quote-wrap {
+    background-color: #fff5ff;
+}
+
+.quote-box {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote-left {
+    width: 45%;
+}
+
+.quote-left img {
+    width: 100%;
+}
+
+.quote-right {
+    width: 45%;
+}
+
+.quote-right p {
+    color: #2d2d2d;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.quote-right h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.quote-right span {
+    color: #2d2d2d;
+    line-height: 25px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.image-gallery {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.img-box {
+    width: 24%;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.footer-box {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer-box ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.footer-box i {
+    padding-block: 40px 20px;
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: 1.2rem
+}
+
+.footer-box a {
+    color: #2d2d2d;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 10px;
+    }
+
+    .featured-box {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .img-box {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .banner-left {
+        width: 100%;
+        margin-block: 20px;
+    }
+
+    .service-left,
+    .blog-about-left,
+    .blog-about-right,
+    .quote-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .banner-right,
+    .service-right,
+    .blog-content,
+    .quote-left {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-box ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .custom-box li {
+        margin-bottom: 10px;
+    }
+
+    .featured-wrap {
+        text-align: center;
+    }
+
+    .featured-box {
+        width: 100%;
+    }
+
+    .img-box {
+        width: 100%;
+    }
+}
